@@ -17,8 +17,8 @@ class _MortgageAppState extends State<MortgageApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      floatingActionButton: FloatingActionButton(onPressed: () => {},
-       child: Icon(Icons.add),),
+      // floatingActionButton: FloatingActionButton(onPressed: () => {},
+      //  child: Icon(Icons.add),),
       appBar: AppBar(
         title: Text("Mortgage Payments"),
       ),
@@ -80,7 +80,7 @@ class _MortgageAppState extends State<MortgageApp> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
-                        Text("Length of Loan (years)"), //TODO: Theme this!
+                        Text("Length of Loan (years)",style: TextStyle(fontSize: 12.0),), //TODO: Theme this!
 
                         Row(
                           children: <Widget>[

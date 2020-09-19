@@ -46,6 +46,7 @@ _buildMortgageTextTheme(TextTheme base) {
   );
 }
 void main() => runApp(new MaterialApp(
+  debugShowCheckedModeBanner: false,
   theme: _buildMortgageTheme(),
   home: MortgageApp(),
 ));
