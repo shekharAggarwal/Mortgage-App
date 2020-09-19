@@ -4,6 +4,7 @@ import 'package:mortgage_payment_starter_app/util/colors.dart';
 
 
 
+// ignore: unused_element
 final ThemeData _mortgageTheme = _buildMortgageTheme();
 
 ThemeData _buildMortgageTheme() {
@@ -33,6 +34,7 @@ ThemeData _buildMortgageTheme() {
 
 _buildMortgageTextTheme(TextTheme base) {
   return base.copyWith(
+     // ignore: deprecated_member_use
      body1: TextStyle(
         color: textOnPrimaryBlack,
        fontSize: 16
